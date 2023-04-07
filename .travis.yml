@@ -7,7 +7,7 @@ os:
 
 script:
   - mvn clean
-  - mvn compile
+  - mvn validate
   - mvn compile
   - mvn test
 
